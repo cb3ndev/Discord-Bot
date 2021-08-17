@@ -8,7 +8,7 @@ mybot = commands.Bot(
 
 @mybot.command()
 # Async y await son parte de la implementacion de corutinas
-async def ping(ctx):
+async def ping(ctx):  # ctx es la variable de contexto
     await ctx.send('pong')
 
 # evento, que se realiza cuando sucede alguna accion
@@ -22,7 +22,7 @@ async def on_ready():
 
 # ahora procederemos a añadir commandos a nuestro bot
 # por ejemplo una funcionalidad que sume cuando se le pase coomo comando
-# recordar que el comando es con simbolo ! , esto fue programado mas arriba
+# recordar que el comando es con simbolo $ , esto fue programado mas arriba
 
 
 @mybot.command()
