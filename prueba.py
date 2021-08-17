@@ -40,4 +40,4 @@ async def info(ctx):
                     value=f"{ctx.guild.owner}")
     await ctx.send(embed=embed)
 
-mybot.run('ODc3MDE0MjIyNjE2Mjg5MzMx.YRsdJA.dYcfrFmQLGrr-33iI1ZfN39ebqo')
+# mybot.run('aqui va el hash de tu bot') #copiar del server de discvord antes de descomentar esto
